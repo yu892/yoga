@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A577506627B26ACE000233FB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577506527B26ACE000233FB /* TableViewController.swift */; };
+		A577506827B26C78000233FB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577506727B26C78000233FB /* TableViewCell.swift */; };
+		A597E77527B25CD7009BB0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597E77427B25CD7009BB0F7 /* AppDelegate.swift */; };
+		A597E77727B25CD7009BB0F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597E77627B25CD7009BB0F7 /* SceneDelegate.swift */; };
+		A597E77927B25CD7009BB0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597E77827B25CD7009BB0F7 /* ViewController.swift */; };
+		A597E77C27B25CD7009BB0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597E77A27B25CD7009BB0F7 /* Main.storyboard */; };
+		A597E77E27B25CD9009BB0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A597E77D27B25CD9009BB0F7 /* Assets.xcassets */; };
+		A597E78127B25CD9009BB0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597E77F27B25CD9009BB0F7 /* LaunchScreen.storyboard */; };
+		A597E78627B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A597E78527B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A597E78C27B25CD9009BB0F7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597E78A27B25CD9009BB0F7 /* Interface.storyboard */; };
+		A597E78E27B25CDB009BB0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A597E78D27B25CDB009BB0F7 /* Assets.xcassets */; };
+		A597E79427B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A597E79327B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A597E79927B25CDB009BB0F7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597E79827B25CDB009BB0F7 /* InterfaceController.swift */; };
+		A597E79B27B25CDB009BB0F7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597E79A27B25CDB009BB0F7 /* ExtensionDelegate.swift */; };
+		A597E79D27B25CDB009BB0F7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597E79C27B25CDB009BB0F7 /* NotificationController.swift */; };
+		A597E79F27B25CDB009BB0F7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597E79E27B25CDB009BB0F7 /* ComplicationController.swift */; };
+		A597E7A127B25CDD009BB0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A597E7A027B25CDD009BB0F7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A597E78727B25CD9009BB0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A597E76927B25CD7009BB0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A597E78427B25CD9009BB0F7;
+			remoteInfo = "yogaZagorodnyZabl WatchKit App";
+		};
+		A597E79527B25CDB009BB0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A597E76927B25CD7009BB0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A597E79227B25CDB009BB0F7;
+			remoteInfo = "yogaZagorodnyZabl WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A597E7A927B25CDD009BB0F7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A597E79427B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597E7AD27B25CDD009BB0F7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A597E78627B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A577506527B26ACE000233FB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A577506727B26C78000233FB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A597E77127B25CD7009BB0F7 /* yogaZagorodnyZabl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yogaZagorodnyZabl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A597E77427B25CD7009BB0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A597E77627B25CD7009BB0F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A597E77827B25CD7009BB0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A597E77B27B25CD7009BB0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A597E77D27B25CD9009BB0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A597E78027B25CD9009BB0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A597E78227B25CD9009BB0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A597E78527B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yogaZagorodnyZabl WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A597E78B27B25CD9009BB0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A597E78D27B25CDB009BB0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A597E79327B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "yogaZagorodnyZabl WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A597E79827B25CDB009BB0F7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A597E79A27B25CDB009BB0F7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A597E79C27B25CDB009BB0F7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A597E79E27B25CDB009BB0F7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A597E7A027B25CDD009BB0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A597E7A227B25CDD009BB0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A597E7A327B25CDD009BB0F7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A597E76E27B25CD7009BB0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597E79027B25CDB009BB0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A597E76827B25CD7009BB0F7 = {
+			isa = PBXGroup;
+			children = (
+				A597E77327B25CD7009BB0F7 /* yogaZagorodnyZabl */,
+				A597E78927B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App */,
+				A597E79727B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension */,
+				A597E77227B25CD7009BB0F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A597E77227B25CD7009BB0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A597E77127B25CD7009BB0F7 /* yogaZagorodnyZabl.app */,
+				A597E78527B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App.app */,
+				A597E79327B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A597E77327B25CD7009BB0F7 /* yogaZagorodnyZabl */ = {
+			isa = PBXGroup;
+			children = (
+				A597E77427B25CD7009BB0F7 /* AppDelegate.swift */,
+				A597E77627B25CD7009BB0F7 /* SceneDelegate.swift */,
+				A597E77827B25CD7009BB0F7 /* ViewController.swift */,
+				A597E77A27B25CD7009BB0F7 /* Main.storyboard */,
+				A577506527B26ACE000233FB /* TableViewController.swift */,
+				A577506727B26C78000233FB /* TableViewCell.swift */,
+				A597E77D27B25CD9009BB0F7 /* Assets.xcassets */,
+				A597E77F27B25CD9009BB0F7 /* LaunchScreen.storyboard */,
+				A597E78227B25CD9009BB0F7 /* Info.plist */,
+			);
+			path = yogaZagorodnyZabl;
+			sourceTree = "<group>";
+		};
+		A597E78927B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A597E78A27B25CD9009BB0F7 /* Interface.storyboard */,
+				A597E78D27B25CDB009BB0F7 /* Assets.xcassets */,
+			);
+			path = "yogaZagorodnyZabl WatchKit App";
+			sourceTree = "<group>";
+		};
+		A597E79727B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A597E79827B25CDB009BB0F7 /* InterfaceController.swift */,
+				A597E79A27B25CDB009BB0F7 /* ExtensionDelegate.swift */,
+				A597E79C27B25CDB009BB0F7 /* NotificationController.swift */,
+				A597E79E27B25CDB009BB0F7 /* ComplicationController.swift */,
+				A597E7A027B25CDD009BB0F7 /* Assets.xcassets */,
+				A597E7A227B25CDD009BB0F7 /* Info.plist */,
+				A597E7A327B25CDD009BB0F7 /* PushNotificationPayload.apns */,
+			);
+			path = "yogaZagorodnyZabl WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A597E77027B25CD7009BB0F7 /* yogaZagorodnyZabl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A597E7AE27B25CDD009BB0F7 /* Build configuration list for PBXNativeTarget "yogaZagorodnyZabl" */;
+			buildPhases = (
+				A597E76D27B25CD7009BB0F7 /* Sources */,
+				A597E76E27B25CD7009BB0F7 /* Frameworks */,
+				A597E76F27B25CD7009BB0F7 /* Resources */,
+				A597E7AD27B25CDD009BB0F7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A597E78827B25CD9009BB0F7 /* PBXTargetDependency */,
+			);
+			name = yogaZagorodnyZabl;
+			productName = yogaZagorodnyZabl;
+			productReference = A597E77127B25CD7009BB0F7 /* yogaZagorodnyZabl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A597E78427B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A597E7AA27B25CDD009BB0F7 /* Build configuration list for PBXNativeTarget "yogaZagorodnyZabl WatchKit App" */;
+			buildPhases = (
+				A597E78327B25CD9009BB0F7 /* Resources */,
+				A597E7A927B25CDD009BB0F7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A597E79627B25CDB009BB0F7 /* PBXTargetDependency */,
+			);
+			name = "yogaZagorodnyZabl WatchKit App";
+			productName = "yogaZagorodnyZabl WatchKit App";
+			productReference = A597E78527B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A597E79227B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A597E7A627B25CDD009BB0F7 /* Build configuration list for PBXNativeTarget "yogaZagorodnyZabl WatchKit Extension" */;
+			buildPhases = (
+				A597E78F27B25CDB009BB0F7 /* Sources */,
+				A597E79027B25CDB009BB0F7 /* Frameworks */,
+				A597E79127B25CDB009BB0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yogaZagorodnyZabl WatchKit Extension";
+			productName = "yogaZagorodnyZabl WatchKit Extension";
+			productReference = A597E79327B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A597E76927B25CD7009BB0F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A597E77027B25CD7009BB0F7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A597E78427B25CD9009BB0F7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A597E79227B25CDB009BB0F7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A597E76C27B25CD7009BB0F7 /* Build configuration list for PBXProject "yogaZagorodnyZabl" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A597E76827B25CD7009BB0F7;
+			productRefGroup = A597E77227B25CD7009BB0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A597E77027B25CD7009BB0F7 /* yogaZagorodnyZabl */,
+				A597E78427B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App */,
+				A597E79227B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A597E76F27B25CD7009BB0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A597E78127B25CD9009BB0F7 /* LaunchScreen.storyboard in Resources */,
+				A597E77E27B25CD9009BB0F7 /* Assets.xcassets in Resources */,
+				A597E77C27B25CD7009BB0F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597E78327B25CD9009BB0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A597E78E27B25CDB009BB0F7 /* Assets.xcassets in Resources */,
+				A597E78C27B25CD9009BB0F7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597E79127B25CDB009BB0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A597E7A127B25CDD009BB0F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A597E76D27B25CD7009BB0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A577506827B26C78000233FB /* TableViewCell.swift in Sources */,
+				A597E77927B25CD7009BB0F7 /* ViewController.swift in Sources */,
+				A597E77527B25CD7009BB0F7 /* AppDelegate.swift in Sources */,
+				A597E77727B25CD7009BB0F7 /* SceneDelegate.swift in Sources */,
+				A577506627B26ACE000233FB /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597E78F27B25CDB009BB0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A597E79D27B25CDB009BB0F7 /* NotificationController.swift in Sources */,
+				A597E79F27B25CDB009BB0F7 /* ComplicationController.swift in Sources */,
+				A597E79B27B25CDB009BB0F7 /* ExtensionDelegate.swift in Sources */,
+				A597E79927B25CDB009BB0F7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A597E78827B25CD9009BB0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A597E78427B25CD9009BB0F7 /* yogaZagorodnyZabl WatchKit App */;
+			targetProxy = A597E78727B25CD9009BB0F7 /* PBXContainerItemProxy */;
+		};
+		A597E79627B25CDB009BB0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A597E79227B25CDB009BB0F7 /* yogaZagorodnyZabl WatchKit Extension */;
+			targetProxy = A597E79527B25CDB009BB0F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A597E77A27B25CD7009BB0F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A597E77B27B25CD7009BB0F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A597E77F27B25CD9009BB0F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A597E78027B25CD9009BB0F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A597E78A27B25CD9009BB0F7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A597E78B27B25CD9009BB0F7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A597E7A427B25CDD009BB0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A597E7A527B25CDD009BB0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A597E7A727B25CDD009BB0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yogaZagorodnyZabl WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "yogaZagorodnyZabl WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zagorodny.yogaZagorodnyZabl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A597E7A827B25CDD009BB0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yogaZagorodnyZabl WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "yogaZagorodnyZabl WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zagorodny.yogaZagorodnyZabl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A597E7AB27B25CDD009BB0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = yogaZagorodnyZabl_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "yogaZagorodnyZabl WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.zagorodny.yogaZagorodnyZabl;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zagorodny.yogaZagorodnyZabl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A597E7AC27B25CDD009BB0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = yogaZagorodnyZabl_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "yogaZagorodnyZabl WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.zagorodny.yogaZagorodnyZabl;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zagorodny.yogaZagorodnyZabl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A597E7AF27B25CDD009BB0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yogaZagorodnyZabl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zagorodny.yogaZagorodnyZabl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A597E7B027B25CDD009BB0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yogaZagorodnyZabl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zagorodny.yogaZagorodnyZabl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A597E76C27B25CD7009BB0F7 /* Build configuration list for PBXProject "yogaZagorodnyZabl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597E7A427B25CDD009BB0F7 /* Debug */,
+				A597E7A527B25CDD009BB0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A597E7A627B25CDD009BB0F7 /* Build configuration list for PBXNativeTarget "yogaZagorodnyZabl WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597E7A727B25CDD009BB0F7 /* Debug */,
+				A597E7A827B25CDD009BB0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A597E7AA27B25CDD009BB0F7 /* Build configuration list for PBXNativeTarget "yogaZagorodnyZabl WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597E7AB27B25CDD009BB0F7 /* Debug */,
+				A597E7AC27B25CDD009BB0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A597E7AE27B25CDD009BB0F7 /* Build configuration list for PBXNativeTarget "yogaZagorodnyZabl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597E7AF27B25CDD009BB0F7 /* Debug */,
+				A597E7B027B25CDD009BB0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A597E76927B25CD7009BB0F7 /* Project object */;
+}
